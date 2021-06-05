@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="contenu/css/style.css">
+  <script src="https://kit.fontawesome.com/f2a3103cec.js" crossorigin="anonymous"></script>
+
+  <title>Outil Éduc'alcool</title>
+</head>
+
+<body class="container-fluid">
+  <h1 class="bg-secondary">Outil Éduc'alcool</h1>
+
+  <form class="border border-light p-5" action="#!">
+   
+    <fieldset id="section_hebdo">
+      <legend  class="h4">Consommation hebdomadaire (Semaine du <span id="semaine"></span>)</legend>
+      
+      <div id="accordion">
+
+      </div>
+
+    </fieldset>
+    <button class="btn btn-primary btn-block" id="lancer" type="button">Générer Rapport</button>
+
+  </form>
+<section id = 'rapport'>
+
+</section>
+<section id='graphique'>
+  <canvas id="canvas" width="400" height="400"></canvas>
+</section>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+<script src="contenu/js/scriptPhilippe.js"></script>
+<script src="contenu/js/scrptAntoine.js"></script>
+
+</body>
+
+</html>

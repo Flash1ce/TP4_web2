@@ -1,0 +1,32 @@
+s.journee{
+    min-width: 120px;
+}
+
+#section_hebdo{
+    .btn-group{
+        width: 15%;
+    }
+}
+
+$primary : #23231A;
+$secondary : #999463;
+$warning : #FE5F00;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.bg-ok{
+    background-color: rgba( $secondary, .9 );
+}
+
+.bg-mauvais{
+    background-color: rgba( $danger, .9 );
+}
+
+.BGvert {
+    background-color: #32CD32;
+}
+.BGjaune {
+    background-color: #FFFF00;
+}
+.BGrouge {
+    background-color: #FF0000;
+}

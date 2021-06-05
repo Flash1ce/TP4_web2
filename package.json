@@ -1,0 +1,26 @@
+{
+  "name": "Tp4 web 1939379",
+  "version": "1.0.0",
+  "description": "Projet de départ pour le travail 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antoine Bédard, Philippe Fleury",
+  "license": "ISC",
+  "repository": {
+    "accueil": "https://gitlab.com/musicandcode/05b-travail-3-d-part"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "chart.js": "^2.9.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
